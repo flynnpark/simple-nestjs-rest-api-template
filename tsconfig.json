@@ -10,6 +10,11 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "typeRoots": ["./types"],
+    "types": ["@types/jest", "@types/node"],
     "incremental": true
   }
 }
