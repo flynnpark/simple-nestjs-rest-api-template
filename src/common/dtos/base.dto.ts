@@ -9,6 +9,9 @@ export class BaseResponse<T> {
   @ApiProperty()
   success: boolean;
 
+  @ApiProperty()
+  path: string;
+
   @ApiProperty({ nullable: true })
   message: string | null;
 
