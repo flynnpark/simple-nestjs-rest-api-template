@@ -1,8 +1,8 @@
 import { ApiProperty } from '@nestjs/swagger';
 
 export class BaseOutput<T> {
-  message: string | null = null;
-  result: T;
+  message?: string | undefined | null = null;
+  result?: T | undefined | null = null;
 }
 
 export class BaseResponse<T> {
